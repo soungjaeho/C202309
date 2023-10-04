@@ -8,7 +8,7 @@ void main() {
 	printf("1부터 3까지의 곱은 %d\n", MultiF(3));
 	printf("1부터 5까지의 곱은 %d\n", MultiF(5));
 }
-// main함수 정의(각각을 출력하는 함수)
+// main함수 정의(각각을 출력하는 함수입니다.) 
 
 long MultiF(int value) {
 // MultiF함수 정의
