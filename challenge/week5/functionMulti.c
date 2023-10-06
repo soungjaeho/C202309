@@ -3,10 +3,11 @@
 long MultiF(int value);
 // MultiF함수 원형 선언
 
-void main() {
-	printf("1부터 2까지의 곱은 %d\n", MultiF(2));
-	printf("1부터 3까지의 곱은 %d\n", MultiF(3));
-	printf("1부터 5까지의 곱은 %d\n", MultiF(5));
+int main() {
+	printf("1부터 2까지의 곱은 %ld\n", MultiF(2));
+	printf("1부터 3까지의 곱은 %ld\n", MultiF(3));
+	printf("1부터 5까지의 곱은 %ld\n", MultiF(5));
+	return 0;
 }
 // main함수 정의(각각을 출력하는 함수입니다.) 
 
